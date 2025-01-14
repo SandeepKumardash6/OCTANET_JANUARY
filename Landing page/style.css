@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .hero {
+    background: url('hotel-hero.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background: #ff0101;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .btn:hover {
+    background: #ff0400;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about, .rooms, .booking {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .room-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .room {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+  }
+  
+  .room img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  /* Add this to the existing CSS */
+@media (max-width: 768px) {
+  .hero {
+    padding: 50px 10px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+  }
+
+  .room-grid {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .room {
+    min-width: 100%;
+  }
+
+  .container {
+    padding: 10px;
+  }
+}

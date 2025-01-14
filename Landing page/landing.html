@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luxury Stay - Hotel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>Welcome to Luxury Stay</h1>
+      <p>Your dream vacation awaits</p>
+      <a href="#book-now" class="btn">Book Now</a>
+    </div>
+  </header>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>
+        Discover unparalleled luxury, comfort, and relaxation at our hotel.
+        We offer world-class amenities and breathtaking views to make your stay unforgettable.
+      </p>
+    </div>
+  </section>
+
+  <section id="rooms" class="rooms">
+    <div class="container">
+      <h2>Our Rooms</h2>
+      <div class="room-grid">
+        <div class="room">
+          <img src="room1.jpg" alt="Deluxe Room">
+          <h3>Deluxe Room</h3>
+          <p>From ₹12000/night</p>
+        </div>
+        <div class="room">
+          <img src="room2.jpg" alt="Executive Suite">
+          <h3>Executive Suite</h3>
+          <p>From ₹22500/night</p>
+        </div>
+        <div class="room">
+          <img src="room3.jpg" alt="Presidential Suite">
+          <h3>Presidential Suite</h3>
+          <p>From ₹40500/night</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="book-now" class="booking">
+    <div class="container">
+      <h2>Book Your Stay</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Your Name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <label for="check-in">Check-In:</label>
+        <input type="date" id="check-in" required>
+        <label for="check-out">Check-Out:</label>
+        <input type="date" id="check-out" required>
+        <label for="guests">Guests:</label>
+        <select id="guests" required>
+          <option value="1">1 Guest</option>
+          <option value="2">2 Guests</option>
+          <option value="3">3 Guests</option>
+          <option value="4">4 Guests</option>
+        </select>
+        <button type="submit" class="btn">Reserve Now</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Luxury Stay. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
